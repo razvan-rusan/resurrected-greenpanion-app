@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:fontFamily="@font/crete_round_regular"
+        android:text="Home"
+        android:textSize="@dimen/login_home_register_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="25dp"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:icon="@drawable/ic_trophy_foreground"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:gravity="center|left"
+        android:id="@+id/showPrizes"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Prizes and guide"
+        android:fontFamily="@font/crete_round_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showMap" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="25dp"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:icon="@drawable/ic_map_foreground"
+        android:textAllCaps="false"
+        android:gravity="center|left"
+        android:id="@+id/showMap"
+        android:textStyle="bold"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Map of recycling centers"
+        android:fontFamily="@font/crete_round_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whatToRecycle" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="25dp"
+        android:gravity="center|left"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:icon="@drawable/ic_stats_foreground"
+        android:textAllCaps="false"
+        android:id="@+id/showStats"
+        android:textStyle="bold"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/crete_round_regular"
+        android:text="My recycling stats"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showPrizes" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="25dp"
+        android:gravity="center|left"
+        android:id="@+id/whatToRecycle"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/crete_round_regular"
+        android:text="How can I recycle?"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:icon="@drawable/ic_can_i_recycle_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHome" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="25dp"
+        android:gravity="center|left"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:icon="@drawable/ic_logout_foreground"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:id="@+id/logoutButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/crete_round_regular"
+        android:text="Logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showStats" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="147dp"
+        android:layout_height="107dp"
+        android:src="@drawable/greenpanion_icon"
+        app:layout_constraintBottom_toTopOf="@+id/tvHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727" />
+</androidx.constraintlayout.widget.ConstraintLayout>

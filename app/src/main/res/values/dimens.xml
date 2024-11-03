@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_name_margin">20dp</dimen>
+    <dimen name="os_version_margin">14dp</dimen>
+    <dimen name="hello_margin_top">180dp</dimen>
+    <dimen name="about_margin_top">56dp</dimen>
+    <dimen name="home_details_text_size">23sp</dimen>
+    <dimen name="profile_margin_top">20dp</dimen>
+    <dimen name="secret_margin_top">8dp</dimen>
+    <dimen name="user_margin_top">250dp</dimen>
+    <dimen name="credentials_layout_width">250dp</dimen>
+    <dimen name="info_margin_top">4dp</dimen>
+    <dimen name="fragment_square_side">500dp</dimen>
+    <dimen name="goto_wiki_height">100dp</dimen>
+    <dimen name="small_top_margin">8dp</dimen>
+    <dimen name="big_margin_top">30dp</dimen>
+    <dimen name="login_home_register_text_size">35sp</dimen>
+    <dimen name="margin_bot_huge">200dp</dimen>
+    <dimen name="margin_bot_medium">100dp</dimen>
+</resources>

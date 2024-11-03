@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Greenpanion</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_text">ABOUT</string>
+    <string name="profile_text">PROFILE</string>
+    <string name="lorem_ipsum_lore">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.</string>
+    <string name="goto_secret_text">GO TO SECRET FRAGMENT :D</string>
+    <string name="user_text">Email</string>
+    <string name="login_text">Log in</string>
+    <string name="cremwurst_lore">Crenvurștii (din germană Krenwurst, în care Kren = hrean, regionalism din Austria și Bavaria; Wurst = cârnat) sunt un preparat culinar din carne, învelit într-o folie protectoare cilindrică. Produs alimentar în formă de cârnăcior, obținut din carne de vită și slănină tocate fin, introduse în intestine de oaie sau în material plastic și adesea prinse în pereche. Se servesc fierți și cu hrean (în Austria) sau cu muștar.</string>
+    <string name="info_text">INFO</string>
+    <string name="goto_wiki_text">GO TO MY FAV WIKIPEDIA PAGE</string>
+</resources>

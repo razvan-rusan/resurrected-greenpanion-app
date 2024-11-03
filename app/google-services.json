@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1037078388175",
+    "firebase_url": "https://greenpanion-test-default-rtdb.firebaseio.com",
+    "project_id": "greenpanion-test",
+    "storage_bucket": "greenpanion-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037078388175:android:011bd9f0aadf2ea55346ba",
+        "android_client_info": {
+          "package_name": "com.example.HackathonApp_v02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037078388175-6pbibjqar436kcbg2jfphiej5slgmc1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.HackathonApp_v02",
+            "certificate_hash": "b25fe10540b41e604c4b7dc5ee4b66d253de07ca"
+          }
+        },
+        {
+          "client_id": "1037078388175-2757gep08effovdalaneg2p50o602ld7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfeZYTPfBpiujOZks8INh-IYp1UP6JwnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037078388175-2757gep08effovdalaneg2p50o602ld7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
